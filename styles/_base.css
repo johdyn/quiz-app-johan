@@ -105,6 +105,7 @@ button {
   position: absolute;
   right: 10px;
   bottom: 167px;
+  cursor: ;
 }
 .div_button {
   display: flex;
