@@ -1,0 +1,22 @@
+.question-card {
+  width: 80%;
+  background-color: wheat;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.question-card__tags {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.question-card__tags__tag-style {
+  padding: 0 5px 0 5px;
+  border: solid black;
+}
