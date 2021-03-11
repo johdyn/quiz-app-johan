@@ -77,29 +77,6 @@ button {
   text-align: center;
 }*/
 
-.question-card {
-  width: 80%;
-  background-color: wheat;
-  font-size: 14px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: ;
-}
-
-.tag-list {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 0;
-}
-
-.tag-style {
-  padding: 0 5px 0 5px;
-  border: solid black;
-}
 
 .card-icon {
   font-size: 20px;
@@ -123,16 +100,6 @@ button {
 
 .toggle-answer {
   /* display: none; */
-}
-
-.profile-card {
-  width: 80%;
-  background-color: wheat;
-  font-size: 14px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  overflow-wrap: break-word;
 }
 
 .profile-card-p {

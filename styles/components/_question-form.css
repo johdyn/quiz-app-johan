@@ -1,0 +1,24 @@
+/* for tag a text field with commas...
+<label> over input text fields */
+
+.question-form {
+  background-color: wheat;
+  width: 80%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.question-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.answer-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.tag-flex {
+  display: flex;
+  flex-direction: column;
+}

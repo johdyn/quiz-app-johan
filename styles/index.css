@@ -1,1 +1,4 @@
 @import '_base.css';
+@import './components/_question-card.css';
+@import './components/_profile-card.css';
+@import './components/_question-form.css';
