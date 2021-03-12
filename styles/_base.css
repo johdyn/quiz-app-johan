@@ -94,8 +94,15 @@ button {
 
 .button-properties {
   width: 100px;
-  background-color: wheat;
+  height: 28px;
+  /*background-color: rgb(203, 214, 241);*/
   border-style: solid black;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #667eea, #6B8DD6);
+  /*box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);*/
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+  justify-self: center;
+
 }
 
 .toggle-answer {

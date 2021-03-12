@@ -18,18 +18,26 @@
           <form class="form">
             <div class="question-flex">
               <label class="question-form__label" for="question-field">
-                Type the question</label
+                Type a question:</label
               >
               <input
                 id="question-field"
                 name="username"
-                placeholder="question"
+                placeholder=""
                 type="text"
+                class="question-form__text-field"
               />
             </div>
             <div class="answer-flex">
-              <label for="answer-field"> Type the answer</label>
-              <input id="answer-field" placeholder="answer" type="text" />
+              <label class="question-form__label" for="answer-field">
+                Type an answer:</label
+              >
+              <input
+                id="answer-field"
+                placeholder=""
+                type="text"
+                class="question-form__text-field"
+              />
             </div>
             <div class="tag-flex">
               <input
@@ -37,12 +45,14 @@
                 name="username"
                 placeholder="add tags"
                 type="text"
+                class="question-form__text-field"
               />
-
-              <button type="submit">Send</button>
+              <button class="question-form__submit" type="submit">
+                submit
+              </button>
             </div>
             <p></p>
-            <button>submit</button>
+            <button>reset</button>
           </form>
         </article>
       </main>

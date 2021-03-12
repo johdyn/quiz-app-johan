@@ -4,6 +4,7 @@
 .question-form {
   background-color: wheat;
   width: 80%;
+  height: 80%;
   display: flex;
   flex-flow: column wrap;
 }
@@ -21,4 +22,15 @@
 .tag-flex {
   display: flex;
   flex-direction: column;
+}
+
+.question-form__text-field {
+  margin: 10px 10px;
+  min-height: 80px;
+  border-style: dotted;
+}
+
+.question-form__label {
+  margin: 10px 10px;
+  font-size: 1rem;
 }
