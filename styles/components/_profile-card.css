@@ -16,3 +16,8 @@
   justify-content: space-between;
   padding-left: 0;
 }
+
+.profile-card__tags__tag-style {
+  padding: 0 5px 0 5px;
+  border: solid black;
+}
