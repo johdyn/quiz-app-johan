@@ -25,6 +25,7 @@ body {
 .layout-header {
   grid-row: 1 / 2;
   background-color: rgb(112, 130, 177);
+  border: black 1px solid;
 }
 
 .layout-main {
@@ -53,6 +54,7 @@ body {
   justify-content: space-around;
   font-size: 26px;
   bottom: 0;
+  border: black 1px solid;
 }
 
 h1,
