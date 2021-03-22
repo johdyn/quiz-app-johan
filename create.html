@@ -15,44 +15,45 @@
       <header class="layout-header"><h1>Create</h1></header>
       <main class="layout-main">
         <article class="question-form">
-          <form class="form">
+          <form class="super-form">
             <div class="question-flex">
               <label class="question-form__label" for="question-field">
                 Type a question:</label
               >
-              <input
+              <textarea
                 id="question-field"
-                name="username"
-                placeholder=""
+                name="question"
+                placeholder="type a question"
                 type="text"
                 class="question-form__text-field"
-              />
+              ></textarea>
             </div>
             <div class="answer-flex">
               <label class="question-form__label" for="answer-field">
                 Type an answer:</label
               >
-              <input
+              <textarea
                 id="answer-field"
-                placeholder=""
+                name="answer"
+                placeholder="type an answer"
                 type="text"
                 class="question-form__text-field"
-              />
+              ></textarea>
             </div>
+
             <div class="tag-flex">
-              <input
+              <textarea
                 id="tags"
-                name="username"
+                name="tags"
                 placeholder="add tags"
                 type="text"
                 class="question-form__text-field"
-              />
+              ></textarea>
               <button class="question-form__submit" type="submit">
                 submit
               </button>
             </div>
-            <p></p>
-            <button>reset</button>
+            <button class="reset" type="reset">reset</button>
           </form>
         </article>
       </main>
@@ -63,5 +64,6 @@
         <a href="./profile.html"><i class="fas fa-user"></i></a>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
