@@ -77,14 +77,13 @@ button {
   text-align: center;
 }*/
 
-
 .card-icon {
   font-size: 20px;
   position: absolute;
   right: 10px;
   top: -5px;
-  cursor: ;
 }
+
 .div_button {
   display: flex;
   justify-content: space-evenly;
@@ -98,15 +97,19 @@ button {
   /*background-color: rgb(203, 214, 241);*/
   border-style: solid black;
   border-radius: 50px;
-  background-image: linear-gradient(to right, #667eea, #6B8DD6);
+  background-image: linear-gradient(to right, #667eea, #6b8dd6);
   /*box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);*/
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, 0.2);
   justify-self: center;
-
 }
+/*
+.button-properties:hover {
+  border: 10px solid;
+  background-image: aqua;
+} */
 
 .toggle-answer {
-  /* display: none; */
+  display: none;
 }
 
 .profile-card-p {
@@ -119,7 +122,11 @@ button {
   border-radius: 50%;
   width: 120px;
   height: 100px;
-  
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
 .profile-heading {
   text-align: right;
