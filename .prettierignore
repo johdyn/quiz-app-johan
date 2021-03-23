@@ -1,3 +1,7 @@
 node_modules
 package-lock.json
-script.js
+main.js
+questioncard.js
+db.js
+form.js
+profile.js
