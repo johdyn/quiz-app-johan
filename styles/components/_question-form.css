@@ -34,3 +34,12 @@
   margin: 10px 10px;
   font-size: 1rem;
 }
+
+.div_button_create {
+  display: flex;
+}
+
+.Create-button {
+  margin-top: -6px;
+  margin-left: 15px;
+}
